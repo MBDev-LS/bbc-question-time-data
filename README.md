@@ -1,5 +1,22 @@
 # BBC Question Time Data
 
+-------------
+## Fork Notes
+
+**Notes to self:**
+- Have run JS file, output appears incomplete, may be due to:
+    - Some config parameters that I'm yet to find
+    - Wikipedia rate limiting and the program quietly exiting
+    - Some other thing
+- You have two options. Either work out what's going on or just rewriting it in Python and use wikidata. Currently thinking the latter is more appealling, but maybe the bit of your brain that is supposed to know JS has woken up in the morning.
+- If you are rewriting it in Python to use wikidata, go and look at the other project that used wikidata first.
+
+**Notes to other people:**
+- Nothing to see here currrently, come back in a bit and you may find up-to-date data.
+
+
+---------
+
 This repository includes a data for the UK political / current affairs TV show **BBC Question Time**, and the scripts to generate the data (which you can inspect and run yourself).
 
 The goal is provide hard data to use when evaluating the validity of accusations of bias in BBC Question Time guest selection and to do so in a transparent manner.
